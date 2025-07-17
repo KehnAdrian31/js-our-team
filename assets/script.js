@@ -56,7 +56,7 @@ for(let i=0; i<teamMembers.length; i++){
         <div class="card bg-dark rounded-0 mb-3">
           <div class="row g-0">
            <div class="col-md-4">
-              <img src="${img}" class="img-fluid img-adapt" alt="...">
+              <img src="./assets/${img}" class="img-fluid img-adapt" alt="...">
            </div>
             <div class="col-md-8">
               <div class="card-body text-white">
@@ -66,7 +66,9 @@ for(let i=0; i<teamMembers.length; i++){
               </div>
             </div>
           </div>
+          </div>
         </div>`
 }
 
-teamContainer.innerHTML = cards;
+teamContainer.innerHTML = cards
+
