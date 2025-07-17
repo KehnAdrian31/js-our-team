@@ -5,4 +5,15 @@
 }
 body{
   background-color: antiquewhite;
+  font-family:  'Fredoka', sans-serif;
+  
+}
+
+#title{
+  color: #E53170;
+}
+
+.img-adapt{
+  height: 100%;
+  object-fit: cover;
 }
